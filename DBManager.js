@@ -1,0 +1,1 @@
+/*! uw-db - v0.0.1 - 2015-06-25 */function DBManager(){var a=__dirname;this.init=function(b){return a=b||__dirname,this},this.getConfig=function(){return require(a+"/db.json")},this.create=function(a){var b=this.getConfig()[a];if(!b)throw new Error("Profile "+a+" not found.");return require("./"+b.driver).newInstance(b)}}module.exports=new DBManager;

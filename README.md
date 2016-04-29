@@ -1,19 +1,31 @@
-#uw-db
-Uwheel DB
+# U-Wheel
+Uninventing the wheel of database
 
-##Overview
-uw wraps the drivers for popular database engines, providing a *promise-way* and an unified method to interact.
 
-##Database Engines supported
-* mssql
-* pg
-* sqlite
+## Overview
+**uw-db** wraps database creation for popular database engines and delegates the interaction to those engines.
 
-##Install
+## Database Engines supported and dependencies
+* MySQL -> uw-mssql
+* PostgreSql -> uw-postgressql
+* SQLite -> uw-sqlite
+
+## Install
 ```bash
 npm install uw-db --save
 ```
 
-##Config
+## Config
+The ```config.json``` sets the necessary data for each engine:
+```javascript
+database {
+  ip: localhost, // unused on sqlite
+  user: 'root', // unused on sqlite
+  password: 'root', // unused on sqlite
+  dbname: 'my_db', // a path on sqlite, or ':memory:'
+  type: 'pg' // pg (default) | sqlserver | sqlite
+}
+```
+This file is located on ```.../config/uw``` by definition
 
-##Examples
+**uw-db** does not strictly downloads the module for the supported engines, developers must add those thar are going to be used

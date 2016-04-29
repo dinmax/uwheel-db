@@ -8,6 +8,10 @@
   },
   "author": "Matias Gonzalez <matias.gonzalez@dinmax.com>",
   "license": "MIT",
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/dinmax/uwheel-db.git"
+  },
   "dependencies": {},
   "config": {
     "buildDir": "dist/"

@@ -6,9 +6,9 @@ Uninventing the wheel of database
 **uw-db** wraps database creation for popular database engines and delegates the interaction to those engines.
 
 ## Database Engines supported and dependencies
-* MySQL -> uw-mssql
-* PostgreSql -> uw-postgressql
-* SQLite -> uw-sqlite
+* SQL Server -> uw-db-sqlserver
+* PostgreSql -> uw-db-postgressql
+* SQLite -> uw-db-sqlite
 
 ## Install
 ```bash

@@ -1,6 +1,6 @@
 {
   "name": "uw-db",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "database manager module for uwheel tools",
   "main": "DBManager.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "author": "Matias Gonzalez <matias.gonzalez@dinmax.com>",
   "license": "MIT",
-  "repository" :{
-    "type" : "git",
-    "url" : "https://github.com/dinmax/uwheel-db.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinmax/uwheel-db.git"
   },
   "dependencies": {},
   "config": {

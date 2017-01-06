@@ -9,6 +9,7 @@ Uninventing the wheel of database
 * SQL Server -> uw-db-sqlserver
 * PostgreSql -> uw-db-postgressql
 * SQLite -> uw-db-sqlite
+* Oracle -> uw-db-oracle
 
 ## Install
 ```bash
@@ -23,7 +24,7 @@ database {
   user: 'root', // unused on sqlite
   password: 'root', // unused on sqlite
   dbname: 'my_db', // a path on sqlite, or ':memory:'
-  type: 'pg' // pg (default) | sqlserver | sqlite
+  type: 'pg' // pg (default) | sqlserver | sqlite | oracle
 }
 ```
 This file is located on ```.../config/uw``` by definition

@@ -1,6 +1,6 @@
 {
   "name": "uw-db",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "database manager module for uwheel tools",
   "main": "DBManager.js",
   "scripts": {
